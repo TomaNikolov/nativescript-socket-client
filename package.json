@@ -1,0 +1,42 @@
+{
+  "name": "nativescript-socket-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "nativescript": {
+    "platforms": {
+      "android": "2.0.0",
+      "ios": "2.0.0"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomaNikolov/nativescript-socket-client.git"
+  },
+  "keywords": [
+    "nativescript",
+    "ecosystem:nativescript",
+    "nativescript-android",
+    "nativescript-ios",
+    "NativeScript",
+    "JavaScript",
+    "Android",
+    "IOS",
+    "io",
+    "socket",
+    "events",
+    "tcp",
+    "socket",
+    "framework",
+    "realtime"
+  ],
+  "author": "Toma Nikolov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomaNikolov/nativescript-socket-client/issues"
+  },
+  "homepage": "https://github.com/TomaNikolov/nativescript-socket-client#readme"
+}

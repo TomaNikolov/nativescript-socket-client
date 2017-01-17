@@ -8,27 +8,23 @@ import java.util.Stack;
 
 public class ResponseHandler extends Thread
 {
+    private final Emitter emitter;
     private OutputStream output;
     private boolean stop;
     private Stack<String> messages;
 
-    public ResponseHandler(Socket socket) throws IOException
-    {
+    public ResponseHandler(Socket socket, Emitter emitter) throws IOException {
         this.output = socket.getOutputStream();
+        this.emitter = emitter;
         this.messages = new Stack<>();
     }
 
     @Override
     public void run()
     {
-        // Send message with the handshake key
-        this.sendMessage("{\"handshake-key\":\"66ervca04kxz4mgja5d4jme59a8\"}");
-
-        while (!stop)
-        {
+        while (!stop) {
             if(!messages.empty()) {
                 String message = messages.pop();
-
                 this.sendMessage(message);
             }
         }
@@ -37,8 +33,13 @@ public class ResponseHandler extends Thread
             this.output.close();
         }
         catch(IOException e) {
+            this.emitter.emit(EmitterConstants.ERROR);
             e.printStackTrace();
         }
+    }
+
+    public void stopRunning() {
+        this.stop = true;
     }
 
     public void addMessage(String message) {
@@ -47,31 +48,20 @@ public class ResponseHandler extends Thread
 
     private void sendMessage(String msg) {
         byte[] utf8;
-        try
-        {
+        try {
             utf8 = msg.getBytes("UTF8");
-        }
-        catch (UnsupportedEncodingException e1)
-        {
+        } catch (UnsupportedEncodingException ex) {
             utf8 = null;
-            e1.printStackTrace();
+            ex.printStackTrace();
         }
 
-        if (utf8 != null)
-        {
-            try
-            {
-                String s = "Content-Length: " + utf8.length;
-                byte[] arr = s.getBytes("UTF8");
-                output.write(arr);
-
+        if (utf8 != null) {
+            try {
                 output.write(utf8);
                 output.flush();
-
-            }
-            catch (IOException e)
+            } catch (IOException ex)
             {
-                e.printStackTrace();
+                ex.printStackTrace();
             }
         }
     }
