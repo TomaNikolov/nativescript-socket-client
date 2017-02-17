@@ -6,6 +6,6 @@ node_modules
 platforms/android/src
 
 #Xcode
-.DC_Store
+.DS_Store
 xcuserdata
 DerivedData
