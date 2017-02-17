@@ -1,0 +1,4 @@
+target 'SocketClient' do
+  pod 'Emitter'
+end
+

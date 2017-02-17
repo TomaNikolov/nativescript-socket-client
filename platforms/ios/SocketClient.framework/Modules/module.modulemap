@@ -1,0 +1,6 @@
+framework module SocketClient {
+  umbrella header "SocketClient.h"
+
+  export *
+  module * { export * }
+}

@@ -4,3 +4,8 @@
 .vscode/*
 node_modules
 platforms/android/src
+
+#Xcode
+.DC_Store
+xcuserdata
+DerivedData

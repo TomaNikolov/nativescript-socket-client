@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01C6DCEFEC6D760754E2D09C6CB7C786 /* Pods-socket-client-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F71BFF7E1C262A09A109286202E4 /* Pods-socket-client-dummy.m */; };
+		1CAF6D31F467FF98766A703C7B29A466 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		1E2968EB106BBFE8615BA2F840CF634D /* NSObject+A2BlockDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = CCA318E3FAA30CCAE04BE4812763CA69 /* NSObject+A2BlockDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22C564313764AD4202D5E6896D6AD5E5 /* NSCache+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1AD8A435EC0BB3E24CB285943995EB /* NSCache+BlocksKit.m */; };
+		25288F7D67D1811E834C37F5E7FE3066 /* NSObject+A2BlockDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 308EFAAFDC8F1D596DBBB28F8E023270 /* NSObject+A2BlockDelegate.m */; };
+		354C0A8FA986B7F135617B6BCBB8F642 /* NSObject+A2DynamicDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B3742678761F29F10FA4742F3CC4A /* NSObject+A2DynamicDelegate.m */; };
+		492AE8BD59F1A48564F35A7FE8463ECF /* NSURLConnection+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8BDF918D7C0BEFBD5ED473399B5C19 /* NSURLConnection+BlocksKit.m */; };
+		49947FF0971250B03B7CA987C1AADCE8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		649C94DF746873E45C46D30310722F2E /* A2BlockInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0B76C2249AC2E079B7A54DBABE78E3 /* A2BlockInvocation.m */; };
+		6C403CC50E581D38F4E44FB80C20EB36 /* NSInvocation+BlockArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D067F003CBECBA721769AEE698D85B /* NSInvocation+BlockArguments.m */; };
+		72C986DE28BF0A588459AD2F22AF2909 /* Emitter+Selectors.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4DB2CF029A2C542343D823EA49EBD1 /* Emitter+Selectors.m */; };
+		75767A4932A44DA75974423C4D31B9E8 /* A2DynamicDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2AEA19A63D413E1672F007B9956243 /* A2DynamicDelegate.m */; };
+		7738DF31168B9B7ACD2B9BD6B1CB5A08 /* Emitter+Selectors.h in Headers */ = {isa = PBXBuildFile; fileRef = 40FDF02F808E0EDB033CBC47EF155345 /* Emitter+Selectors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BBA88315FA84EA965AB71503EE9A462 /* Emitter+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = A35E4CD2E59DEDBF907FF7D207A4C4A2 /* Emitter+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8ACF4FDF154D2101A24F0991F0981078 /* Emitter+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EE74BB016C6C32F2C3CE13CEFA2ACC /* Emitter+Blocks.m */; };
+		8DA2EEF063127FFC982C1C1C126984AB /* BlocksKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACF6A773645A54118F3603D3D513062 /* BlocksKit-dummy.m */; };
+		98CA36FE9A7959B378ED902D54BB0028 /* NSObject+A2DynamicDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 21605BF64D7DFF4229485ECCFB258CA0 /* NSObject+A2DynamicDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A530C1A9F2D9444F6D216902362ECF5E /* NSInvocation+BlockArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A423813FB65EA1B573E76D669CBD5E2 /* NSInvocation+BlockArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A61E6B3DB9C5817CF3D09313C76CAB1B /* A2DynamicDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DFEA988226599DD2550C210A25867A6 /* A2DynamicDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0B6728D400E1A772B2ACC39DDFB41BA /* Emitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 50F73804A3C1ABD825AA87EE8E45DF0D /* Emitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C52B0DC10AA930B1CECC577161B98E4C /* NSCache+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 66BE7A322060ADB1E91A63EFABE987C6 /* NSCache+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1DA98B6468F9AA5A4A023BCAD3B4A8E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		FB853A6251B6CBBA6B1B2FD046D1C41C /* Emitter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C87B4BE5B72604013C05A202C5A0804 /* Emitter-dummy.m */; };
+		FE87397F7D580AB2A7460CFA36B15F78 /* A2BlockInvocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E1DC2D0728794823653F4EC22DBF1CC /* A2BlockInvocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEFB59981ECA51187616F26D823EFF06 /* NSURLConnection+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C1BA2B9E6774C553E2EB389BE5D96EB /* NSURLConnection+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3861EA025FFBAE9E144DA43DBD25F738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B51EE1D0FCC579520AEE7DD53543386;
+			remoteInfo = Emitter;
+		};
+		9BA0473EA301CA3170D77EC436408DC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 086B8731BBB66F048B151FFC55E80410;
+			remoteInfo = BlocksKit;
+		};
+		E4403EEF106BA9DF2C391D256A07F0C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 086B8731BBB66F048B151FFC55E80410;
+			remoteInfo = BlocksKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		042B3742678761F29F10FA4742F3CC4A /* NSObject+A2DynamicDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+A2DynamicDelegate.m"; path = "BlocksKit/DynamicDelegate/NSObject+A2DynamicDelegate.m"; sourceTree = "<group>"; };
+		0C87B4BE5B72604013C05A202C5A0804 /* Emitter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Emitter-dummy.m"; sourceTree = "<group>"; };
+		0F2AEA19A63D413E1672F007B9956243 /* A2DynamicDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A2DynamicDelegate.m; path = BlocksKit/DynamicDelegate/A2DynamicDelegate.m; sourceTree = "<group>"; };
+		21605BF64D7DFF4229485ECCFB258CA0 /* NSObject+A2DynamicDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+A2DynamicDelegate.h"; path = "BlocksKit/DynamicDelegate/NSObject+A2DynamicDelegate.h"; sourceTree = "<group>"; };
+		246D48D58B6C94291A21054FBD753013 /* libPods-socket-client.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-socket-client.a"; path = "libPods-socket-client.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		2C1BA2B9E6774C553E2EB389BE5D96EB /* NSURLConnection+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLConnection+BlocksKit.h"; path = "BlocksKit/DynamicDelegate/Foundation/NSURLConnection+BlocksKit.h"; sourceTree = "<group>"; };
+		2D95543CE279698EDF4C85F479217192 /* Pods-socket-client-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-socket-client-acknowledgements.markdown"; sourceTree = "<group>"; };
+		308EFAAFDC8F1D596DBBB28F8E023270 /* NSObject+A2BlockDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+A2BlockDelegate.m"; path = "BlocksKit/DynamicDelegate/NSObject+A2BlockDelegate.m"; sourceTree = "<group>"; };
+		3C4D7E1CE01D6461CB56CF33EB2BD001 /* Pods-socket-client-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-socket-client-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E1DC2D0728794823653F4EC22DBF1CC /* A2BlockInvocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A2BlockInvocation.h; path = BlocksKit/DynamicDelegate/A2BlockInvocation.h; sourceTree = "<group>"; };
+		40FDF02F808E0EDB033CBC47EF155345 /* Emitter+Selectors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Emitter+Selectors.h"; path = "Emitter/Emitter+Selectors.h"; sourceTree = "<group>"; };
+		45B93AC2A876419F7653A9E57DA22308 /* libEmitter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libEmitter.a; path = libEmitter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F73804A3C1ABD825AA87EE8E45DF0D /* Emitter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Emitter.h; path = Emitter/Emitter.h; sourceTree = "<group>"; };
+		59D067F003CBECBA721769AEE698D85B /* NSInvocation+BlockArguments.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+BlockArguments.m"; path = "Emitter/NSInvocation+BlockArguments.m"; sourceTree = "<group>"; };
+		5A423813FB65EA1B573E76D669CBD5E2 /* NSInvocation+BlockArguments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+BlockArguments.h"; path = "Emitter/NSInvocation+BlockArguments.h"; sourceTree = "<group>"; };
+		66BE7A322060ADB1E91A63EFABE987C6 /* NSCache+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSCache+BlocksKit.h"; path = "BlocksKit/DynamicDelegate/Foundation/NSCache+BlocksKit.h"; sourceTree = "<group>"; };
+		66CECF9B2BE758F899B1A45D3264B560 /* BlocksKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlocksKit-prefix.pch"; sourceTree = "<group>"; };
+		6ACF6A773645A54118F3603D3D513062 /* BlocksKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BlocksKit-dummy.m"; sourceTree = "<group>"; };
+		6DFEA988226599DD2550C210A25867A6 /* A2DynamicDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A2DynamicDelegate.h; path = BlocksKit/DynamicDelegate/A2DynamicDelegate.h; sourceTree = "<group>"; };
+		75A7F71BFF7E1C262A09A109286202E4 /* Pods-socket-client-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-socket-client-dummy.m"; sourceTree = "<group>"; };
+		79CD1ED2387861C2B5798C6B1A10D7DA /* libBlocksKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libBlocksKit.a; path = libBlocksKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C793043A8342AD24371A3634AB20A92 /* Pods-socket-client-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-socket-client-frameworks.sh"; sourceTree = "<group>"; };
+		898920BB6D2CD7569830BB587D6E0FA6 /* Emitter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Emitter.xcconfig; sourceTree = "<group>"; };
+		8C8BDF918D7C0BEFBD5ED473399B5C19 /* NSURLConnection+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLConnection+BlocksKit.m"; path = "BlocksKit/DynamicDelegate/Foundation/NSURLConnection+BlocksKit.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96670E7FE0542F9DBF59BFCAD4444206 /* BlocksKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlocksKit.xcconfig; sourceTree = "<group>"; };
+		9EFCEDE27FF5BCA0402C32E7A37014D7 /* Pods-socket-client-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-socket-client-resources.sh"; sourceTree = "<group>"; };
+		A35E4CD2E59DEDBF907FF7D207A4C4A2 /* Emitter+Blocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Emitter+Blocks.h"; path = "Emitter/Emitter+Blocks.h"; sourceTree = "<group>"; };
+		B91ACF94C5C93ECA0F40DE218F08A43A /* Pods-socket-client.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-socket-client.release.xcconfig"; sourceTree = "<group>"; };
+		BE1AD8A435EC0BB3E24CB285943995EB /* NSCache+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSCache+BlocksKit.m"; path = "BlocksKit/DynamicDelegate/Foundation/NSCache+BlocksKit.m"; sourceTree = "<group>"; };
+		C5EE74BB016C6C32F2C3CE13CEFA2ACC /* Emitter+Blocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Emitter+Blocks.m"; path = "Emitter/Emitter+Blocks.m"; sourceTree = "<group>"; };
+		CCA318E3FAA30CCAE04BE4812763CA69 /* NSObject+A2BlockDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+A2BlockDelegate.h"; path = "BlocksKit/DynamicDelegate/NSObject+A2BlockDelegate.h"; sourceTree = "<group>"; };
+		DA0B76C2249AC2E079B7A54DBABE78E3 /* A2BlockInvocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A2BlockInvocation.m; path = BlocksKit/DynamicDelegate/A2BlockInvocation.m; sourceTree = "<group>"; };
+		DAA1C6650C1A6DEAD5DFAC0F27DEEBFC /* Pods-socket-client.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-socket-client.debug.xcconfig"; sourceTree = "<group>"; };
+		E7F06B96D72482FC8F9F7DB5D91740F6 /* Emitter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Emitter-prefix.pch"; sourceTree = "<group>"; };
+		EF4DB2CF029A2C542343D823EA49EBD1 /* Emitter+Selectors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Emitter+Selectors.m"; path = "Emitter/Emitter+Selectors.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		439EA3204679DE7495B1CB51BC65DF5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49947FF0971250B03B7CA987C1AADCE8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B82BB6E75A92FBA6F1088E107B970C74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAF6D31F467FF98766A703C7B29A466 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E54150477E52AB2360980C13C1FC4DC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DA98B6468F9AA5A4A023BCAD3B4A8E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04C068A18C5413F804A2959126093416 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		326EDAB14E4B0CA786532184D50EF3A0 /* BlocksKit */ = {
+			isa = PBXGroup;
+			children = (
+				872BD62433B22E2A9E3627F035F9EBF3 /* DynamicDelegate */,
+				7CAAD2F6B511FE6D2F6BB1408574018C /* Support Files */,
+			);
+			name = BlocksKit;
+			path = BlocksKit;
+			sourceTree = "<group>";
+		};
+		39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04C068A18C5413F804A2959126093416 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F1885C87929FBCC8FE7F8BF6D0A7728 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				326EDAB14E4B0CA786532184D50EF3A0 /* BlocksKit */,
+				65F955BFD65E6626C9086360C957FB17 /* Emitter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		65F955BFD65E6626C9086360C957FB17 /* Emitter */ = {
+			isa = PBXGroup;
+			children = (
+				50F73804A3C1ABD825AA87EE8E45DF0D /* Emitter.h */,
+				A35E4CD2E59DEDBF907FF7D207A4C4A2 /* Emitter+Blocks.h */,
+				C5EE74BB016C6C32F2C3CE13CEFA2ACC /* Emitter+Blocks.m */,
+				40FDF02F808E0EDB033CBC47EF155345 /* Emitter+Selectors.h */,
+				EF4DB2CF029A2C542343D823EA49EBD1 /* Emitter+Selectors.m */,
+				5A423813FB65EA1B573E76D669CBD5E2 /* NSInvocation+BlockArguments.h */,
+				59D067F003CBECBA721769AEE698D85B /* NSInvocation+BlockArguments.m */,
+				C78C04077B9B13A2FBDC0EB0A9B57F19 /* Support Files */,
+			);
+			name = Emitter;
+			path = Emitter;
+			sourceTree = "<group>";
+		};
+		7CAAD2F6B511FE6D2F6BB1408574018C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				96670E7FE0542F9DBF59BFCAD4444206 /* BlocksKit.xcconfig */,
+				6ACF6A773645A54118F3603D3D513062 /* BlocksKit-dummy.m */,
+				66CECF9B2BE758F899B1A45D3264B560 /* BlocksKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BlocksKit";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */,
+				4F1885C87929FBCC8FE7F8BF6D0A7728 /* Pods */,
+				8919F77A862DD407F431636C8DCE4AAD /* Products */,
+				D691D9A92335EED177A1F90B753E3957 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		872BD62433B22E2A9E3627F035F9EBF3 /* DynamicDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3E1DC2D0728794823653F4EC22DBF1CC /* A2BlockInvocation.h */,
+				DA0B76C2249AC2E079B7A54DBABE78E3 /* A2BlockInvocation.m */,
+				6DFEA988226599DD2550C210A25867A6 /* A2DynamicDelegate.h */,
+				0F2AEA19A63D413E1672F007B9956243 /* A2DynamicDelegate.m */,
+				66BE7A322060ADB1E91A63EFABE987C6 /* NSCache+BlocksKit.h */,
+				BE1AD8A435EC0BB3E24CB285943995EB /* NSCache+BlocksKit.m */,
+				CCA318E3FAA30CCAE04BE4812763CA69 /* NSObject+A2BlockDelegate.h */,
+				308EFAAFDC8F1D596DBBB28F8E023270 /* NSObject+A2BlockDelegate.m */,
+				21605BF64D7DFF4229485ECCFB258CA0 /* NSObject+A2DynamicDelegate.h */,
+				042B3742678761F29F10FA4742F3CC4A /* NSObject+A2DynamicDelegate.m */,
+				2C1BA2B9E6774C553E2EB389BE5D96EB /* NSURLConnection+BlocksKit.h */,
+				8C8BDF918D7C0BEFBD5ED473399B5C19 /* NSURLConnection+BlocksKit.m */,
+			);
+			name = DynamicDelegate;
+			sourceTree = "<group>";
+		};
+		8919F77A862DD407F431636C8DCE4AAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79CD1ED2387861C2B5798C6B1A10D7DA /* libBlocksKit.a */,
+				45B93AC2A876419F7653A9E57DA22308 /* libEmitter.a */,
+				246D48D58B6C94291A21054FBD753013 /* libPods-socket-client.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CD88CF393C7D6C2562E71072C3A3718 /* Pods-socket-client */ = {
+			isa = PBXGroup;
+			children = (
+				2D95543CE279698EDF4C85F479217192 /* Pods-socket-client-acknowledgements.markdown */,
+				3C4D7E1CE01D6461CB56CF33EB2BD001 /* Pods-socket-client-acknowledgements.plist */,
+				75A7F71BFF7E1C262A09A109286202E4 /* Pods-socket-client-dummy.m */,
+				7C793043A8342AD24371A3634AB20A92 /* Pods-socket-client-frameworks.sh */,
+				9EFCEDE27FF5BCA0402C32E7A37014D7 /* Pods-socket-client-resources.sh */,
+				DAA1C6650C1A6DEAD5DFAC0F27DEEBFC /* Pods-socket-client.debug.xcconfig */,
+				B91ACF94C5C93ECA0F40DE218F08A43A /* Pods-socket-client.release.xcconfig */,
+			);
+			name = "Pods-socket-client";
+			path = "Target Support Files/Pods-socket-client";
+			sourceTree = "<group>";
+		};
+		C78C04077B9B13A2FBDC0EB0A9B57F19 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				898920BB6D2CD7569830BB587D6E0FA6 /* Emitter.xcconfig */,
+				0C87B4BE5B72604013C05A202C5A0804 /* Emitter-dummy.m */,
+				E7F06B96D72482FC8F9F7DB5D91740F6 /* Emitter-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Emitter";
+			sourceTree = "<group>";
+		};
+		D691D9A92335EED177A1F90B753E3957 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CD88CF393C7D6C2562E71072C3A3718 /* Pods-socket-client */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03A717852073CEE97FF20C3FBB125EDE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE87397F7D580AB2A7460CFA36B15F78 /* A2BlockInvocation.h in Headers */,
+				A61E6B3DB9C5817CF3D09313C76CAB1B /* A2DynamicDelegate.h in Headers */,
+				C52B0DC10AA930B1CECC577161B98E4C /* NSCache+BlocksKit.h in Headers */,
+				1E2968EB106BBFE8615BA2F840CF634D /* NSObject+A2BlockDelegate.h in Headers */,
+				98CA36FE9A7959B378ED902D54BB0028 /* NSObject+A2DynamicDelegate.h in Headers */,
+				FEFB59981ECA51187616F26D823EFF06 /* NSURLConnection+BlocksKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D75A3144C9833385520640CFBAFE84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BBA88315FA84EA965AB71503EE9A462 /* Emitter+Blocks.h in Headers */,
+				7738DF31168B9B7ACD2B9BD6B1CB5A08 /* Emitter+Selectors.h in Headers */,
+				C0B6728D400E1A772B2ACC39DDFB41BA /* Emitter.h in Headers */,
+				A530C1A9F2D9444F6D216902362ECF5E /* NSInvocation+BlockArguments.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		086B8731BBB66F048B151FFC55E80410 /* BlocksKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 281D7737915EF42889E28ACC629AE055 /* Build configuration list for PBXNativeTarget "BlocksKit" */;
+			buildPhases = (
+				D0383E96A3C9C912E76E1F1B69AA70FF /* Sources */,
+				B82BB6E75A92FBA6F1088E107B970C74 /* Frameworks */,
+				03A717852073CEE97FF20C3FBB125EDE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlocksKit;
+			productName = BlocksKit;
+			productReference = 79CD1ED2387861C2B5798C6B1A10D7DA /* libBlocksKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2B51EE1D0FCC579520AEE7DD53543386 /* Emitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D98AE5E0EF30FB656A84C5301368904 /* Build configuration list for PBXNativeTarget "Emitter" */;
+			buildPhases = (
+				C523D984D43ADBEE481F5706C0B3170B /* Sources */,
+				439EA3204679DE7495B1CB51BC65DF5C /* Frameworks */,
+				62D75A3144C9833385520640CFBAFE84 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EE4857381440C98D685F6832D07A4AF /* PBXTargetDependency */,
+			);
+			name = Emitter;
+			productName = Emitter;
+			productReference = 45B93AC2A876419F7653A9E57DA22308 /* libEmitter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		501B419E4B419F5FF2A5863E11AD6691 /* Pods-socket-client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C612238320AF4D15942404997CFA4B85 /* Build configuration list for PBXNativeTarget "Pods-socket-client" */;
+			buildPhases = (
+				E4626319E4F75513C477CA157392D915 /* Sources */,
+				E54150477E52AB2360980C13C1FC4DC7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E970DC8C01AD892ED45642530A37A74 /* PBXTargetDependency */,
+				8F356DF6A37A1233BB9A649F0271803F /* PBXTargetDependency */,
+			);
+			name = "Pods-socket-client";
+			productName = "Pods-socket-client";
+			productReference = 246D48D58B6C94291A21054FBD753013 /* libPods-socket-client.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8919F77A862DD407F431636C8DCE4AAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				086B8731BBB66F048B151FFC55E80410 /* BlocksKit */,
+				2B51EE1D0FCC579520AEE7DD53543386 /* Emitter */,
+				501B419E4B419F5FF2A5863E11AD6691 /* Pods-socket-client */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C523D984D43ADBEE481F5706C0B3170B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ACF4FDF154D2101A24F0991F0981078 /* Emitter+Blocks.m in Sources */,
+				72C986DE28BF0A588459AD2F22AF2909 /* Emitter+Selectors.m in Sources */,
+				FB853A6251B6CBBA6B1B2FD046D1C41C /* Emitter-dummy.m in Sources */,
+				6C403CC50E581D38F4E44FB80C20EB36 /* NSInvocation+BlockArguments.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0383E96A3C9C912E76E1F1B69AA70FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649C94DF746873E45C46D30310722F2E /* A2BlockInvocation.m in Sources */,
+				75767A4932A44DA75974423C4D31B9E8 /* A2DynamicDelegate.m in Sources */,
+				8DA2EEF063127FFC982C1C1C126984AB /* BlocksKit-dummy.m in Sources */,
+				22C564313764AD4202D5E6896D6AD5E5 /* NSCache+BlocksKit.m in Sources */,
+				25288F7D67D1811E834C37F5E7FE3066 /* NSObject+A2BlockDelegate.m in Sources */,
+				354C0A8FA986B7F135617B6BCBB8F642 /* NSObject+A2DynamicDelegate.m in Sources */,
+				492AE8BD59F1A48564F35A7FE8463ECF /* NSURLConnection+BlocksKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4626319E4F75513C477CA157392D915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C6DCEFEC6D760754E2D09C6CB7C786 /* Pods-socket-client-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E970DC8C01AD892ED45642530A37A74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BlocksKit;
+			target = 086B8731BBB66F048B151FFC55E80410 /* BlocksKit */;
+			targetProxy = 9BA0473EA301CA3170D77EC436408DC4 /* PBXContainerItemProxy */;
+		};
+		8F356DF6A37A1233BB9A649F0271803F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Emitter;
+			target = 2B51EE1D0FCC579520AEE7DD53543386 /* Emitter */;
+			targetProxy = 3861EA025FFBAE9E144DA43DBD25F738 /* PBXContainerItemProxy */;
+		};
+		9EE4857381440C98D685F6832D07A4AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BlocksKit;
+			target = 086B8731BBB66F048B151FFC55E80410 /* BlocksKit */;
+			targetProxy = E4403EEF106BA9DF2C391D256A07F0C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0916C8B2D4AE8133A88A73A803C29629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 898920BB6D2CD7569830BB587D6E0FA6 /* Emitter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Emitter/Emitter-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0C00ACD807C8278D893786819C69BACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3B609BC2C81207A1F00837F5D878CFD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96670E7FE0542F9DBF59BFCAD4444206 /* BlocksKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BlocksKit/BlocksKit-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4FD52B186B87B27533CC2BCC460DE8D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96670E7FE0542F9DBF59BFCAD4444206 /* BlocksKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BlocksKit/BlocksKit-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		648D313881253902A128DB78BD582A9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CE46588EA862F499F7A27702A25B327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAA1C6650C1A6DEAD5DFAC0F27DEEBFC /* Pods-socket-client.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DE8723093FADA71BCB26A11A79392BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 898920BB6D2CD7569830BB587D6E0FA6 /* Emitter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Emitter/Emitter-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F8D54C1AA89DE0C6818E4583B9DFC731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B91ACF94C5C93ECA0F40DE218F08A43A /* Pods-socket-client.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		281D7737915EF42889E28ACC629AE055 /* Build configuration list for PBXNativeTarget "BlocksKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD52B186B87B27533CC2BCC460DE8D4 /* Debug */,
+				3B609BC2C81207A1F00837F5D878CFD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C00ACD807C8278D893786819C69BACE /* Debug */,
+				648D313881253902A128DB78BD582A9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D98AE5E0EF30FB656A84C5301368904 /* Build configuration list for PBXNativeTarget "Emitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8723093FADA71BCB26A11A79392BB0 /* Debug */,
+				0916C8B2D4AE8133A88A73A803C29629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C612238320AF4D15942404997CFA4B85 /* Build configuration list for PBXNativeTarget "Pods-socket-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE46588EA862F499F7A27702A25B327 /* Debug */,
+				F8D54C1AA89DE0C6818E4583B9DFC731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
